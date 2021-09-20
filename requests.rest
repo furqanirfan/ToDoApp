@@ -1,0 +1,28 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRnVycWFuIiwiaWF0IjoxNjMyMTM5NjMxfQ.vW0dCZmd1XI9e4_XxZ65IP3dDyvY79GPUkf8aO3hRTs
+
+###
+
+DELETE http://localhost:4000/logout
+Content-Type: application/json 
+
+{
+    "token":
+}
+
+###
+
+POST http://localhost:4000/posts
+Content-Type: application/json
+
+{
+    "token":  
+}
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Furqan"
+} 
